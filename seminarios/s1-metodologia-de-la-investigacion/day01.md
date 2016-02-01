@@ -2,11 +2,11 @@
 
 # S1 - Seminario Metodologia de La Investigacion
 
-Profa. Dra. Asuncion Gomez Perez explained about Master of Science in Artificial Intelligence, the aster thesis and about the Phd program at UPM.
+Profa. Dra. Asuncion Gomez Perez explained about Master of Science in Artificial Intelligence, the master thesis and about the Phd program at UPM.<BR>
 
-To start the PhD program is very important to define the problem to research about it.
+To start the PhD program is very important to define the problem to research about it.<BR>
 
-The entire Phd program takes about 3 to 5 years to complete.
+The entire Phd program takes about 3 to 5 years to complete.<BR>
 
 To have "Mencion Internacional" it is important to:
 * Write the Phd Thesis in English;
@@ -18,11 +18,11 @@ http://www.dia.fi.upm.es/masteria/?q=es/MUIA<BR>
 More info about the Phd in Artificial Intelligence at UPM:<BR>
 http://www.dia.fi.upm.es/doctoradoia/?q=es/node/17<BR>
 
-Profa. Asunción Gómez Pérez
-Office 2209
-asun@fi.upm.es 
+Profa. Asunción Gómez Pérez<BR>
+Office 2209<BR>
+asun@fi.upm.es <BR>
 
-Links about Profa. Asunción Gómez:
+Links about Profa. Asunción Gómez:<BR>
 http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/teachers/194-asun<BR>
 https://twitter.com/asungomezperez<BR>
 https://scholar.google.es/citations?user=5xmvwXQAAAAJ&hl=en<BR>
@@ -39,7 +39,7 @@ Links about A.I:<BR>
 AEPIA (Asociación Española para la Inteligencia Artificial
 http://www.aepia.org/aepia/index.php<BR>
 
-http://polar.lsi.uned.es/revista/index.php/ia
+http://polar.lsi.uned.es/revista/index.php/ia<BR>
 
 Stanford Artificial Intelligence Laboratory<BR>
 http://ai.stanford.edu<BR>
