@@ -2,7 +2,7 @@
 
 # S1 - Seminario Metodologia de La Investigacion
 
-Profa. Dra. Asuncion Gomez Perez explained about Master of Science in Artificial Intelligence, the master thesis and about the Phd program at UPM.<BR>
+Profa. Dra. Asuncion Gomez Perez explained about the Master of Science in Artificial Intelligence Program, the master thesis and about the Phd program at UPM.<BR>
 
 To start the PhD program is very important to define the problem to research about it.<BR>
 
@@ -46,6 +46,3 @@ http://ai.stanford.edu<BR>
 
 MIT Computer Science and Artificial Intelligence Laboratory<BR>
 http://www.csail.mit.edu<BR>
-
-
-
