@@ -11,6 +11,7 @@ Now I have some ideas:<BR>
 1) Algoritims to analyze Customer Experience; <BR>
 2) Text Mining, Social Networks, Natural Processing Language;<BR>
 3) Think intelligent robotics. <BR>
+4) Artificial Intelligence applied to Family History<BR>
 
 * Why is it important?
 
@@ -39,4 +40,4 @@ Eliza in Java<BR>
 http://chayden.net/eliza/Eliza.shtml<BR>
 
 Eliza in Python<BR>
-http://www.jezuk.co.uk/cgi-bin/view/eliza<BR>>
+http://www.jezuk.co.uk/cgi-bin/view/eliza<BR>
