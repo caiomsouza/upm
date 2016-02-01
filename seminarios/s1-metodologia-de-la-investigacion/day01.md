@@ -36,7 +36,7 @@ Tasks suggested:
 
 Links about A.I:<BR>
 
-AEPIA (Asociación Española para la Inteligencia Artificial
+AEPIA (Asociación Española para la Inteligencia Artificial) <BR>
 http://www.aepia.org/aepia/index.php<BR>
 
 http://polar.lsi.uned.es/revista/index.php/ia<BR>
