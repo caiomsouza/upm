@@ -2,6 +2,13 @@
 
 Tasks suggested:<BR>
 
+Links about A.I:<BR>
+
+Wearing Your Intelligence: How to Apply Artificial Intelligence in Wearables and IoT<BR>
+http://www.wired.com/insights/2014/12/wearing-your-intelligence/<BR>
+
+
+
 * Write about the problem we want to research;
 
 The problem I want to research is related with the Line 1: "Aplicacion de la Inteligencia Artificial". <BR>
@@ -12,6 +19,19 @@ Now I have some ideas:<BR>
 2) Text Mining, Social Networks, Natural Processing Language;<BR>
 3) Think intelligent robotics. <BR>
 4) Artificial Intelligence applied to Family History<BR>
+
+5) Improving genealogical tools and historical microfilms with high-speed image processing<BR>
+https://cs.byu.edu/research-computer-science-byu<BR>
+
+See BYU page:<BR>
+brenth@byu.edu<BR>
+
+Family History Technology Lab:<BR>
+https://fhtl.byu.edu/#/home<BR>
+
+Family History Technology Lab - Projects:<BR>
+https://fhtl.byu.edu/#/projects<BR>
+
 
 * Why is it important?
 
@@ -41,3 +61,10 @@ http://chayden.net/eliza/Eliza.shtml<BR>
 
 Eliza in Python<BR>
 http://www.jezuk.co.uk/cgi-bin/view/eliza<BR>
+
+PHD BYU 
+
+Graduate Policy Handbook - PhD Program
+https://cs.byu.edu/graduate-policy-handbook-phd-program
+
+
