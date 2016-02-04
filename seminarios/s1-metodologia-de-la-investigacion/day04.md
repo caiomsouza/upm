@@ -54,7 +54,39 @@ Everything (in the world) made avaible to the public by means of ... <BR>
 
 Keep your invention confidential until you have filed your application!
 
+#Patents Databases
+
+###Espacenet (Free)
+* over 90 million patent documents, easily searchable
+* All patents in the world in this database
+
+http://worldwide.espacenet.com/<BR>
 
 
+###Google Patent
+* Only US and EU patents;
+
+https://patents.google.com/<BR>
+
+There is a tool to translate patents.<BR>
+
+###Spanish Patent Office
+* Application filed
+* Search Report
+* Publication (Invetion becomes public)
+It takes 18 months.<BR>
+
+###Examination Process
+* Opposition period expires
+* Prelim.exam
+* Grant
+
+The whole process is about Aprox. 2-3 years.<BR>
+
+#International patent strategy
+PCT Loop is to "buy" time. It is the way big companies use to patent in a lot of countries.<BR>
+
+###PCT Contracting States (148 countries).
+* USA, EU, Brazil, etc.
 
 
