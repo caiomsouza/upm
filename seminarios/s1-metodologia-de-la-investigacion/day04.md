@@ -189,7 +189,5 @@ Apache Rat is a release audit tool, focused on licenses.<BR>
 http://creadur.apache.org/rat/<BR>
 
 # How to install and Run Apache Rat
-
-###SVN Checkout the code in a folder
 See the link below:<BR>
 https://github.com/caiomsouza/data-science/blob/master/apache.rat/README.md<BR>
