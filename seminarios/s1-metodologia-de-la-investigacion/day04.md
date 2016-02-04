@@ -89,4 +89,9 @@ PCT Loop is to "buy" time. It is the way big companies use to patent in a lot of
 ###PCT Contracting States (148 countries).
 * USA, EU, Brazil, etc.
 
+###Real Patents created in UPM
+* Alise Devices
+http://www.alise-devices.com/<BR>
+
+
 
