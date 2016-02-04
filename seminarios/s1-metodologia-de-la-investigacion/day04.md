@@ -1,6 +1,16 @@
 # UPM - Day 4 - 04/02/2016 - How to protect your research
 
+#Day 4 - Part 1
+
 ###Speaker: Ana Goicolea
+GOICOLEA RUIGOMEZ, ANA<BR>
+ana.goicolea@upm.es<BR>
+913366192<BR>
+913365974<BR>
+
+https://es.linkedin.com/in/ana-goicolea-ruigómez-83b7742b/en<BR>
+
+
 OTRIUPM<BR>
 
 #Intellectual Property Rights (IPRs)
@@ -115,10 +125,55 @@ Art. 13 de la Normativa de PI de la UPM.<BR>
 * 30.000 euros - USA and Europe
 
 
+# What is copyright
+
+Copyright is a form of protection for original works of authorship fixed
+
+#What does copyright protects?
+
+70 years after the death of the author.
+
+
+# Day 4 - Part 2
+
+###Speaker: Victor Rodriguez Doncel
+Victor Rodriguez-Doncel (1978) is a postdoc researcher at the Ontology Engineering Group, in the Universidad Politécnica de Madrid.<BR>
+http://delicias.dia.fi.upm.es/~vrodriguez/<BR>
+https://es.linkedin.com/in/victor-rodriguez-doncel-554b5213/en<BR>
+https://twitter.com/vroddon<BR>
+
+
+#General Idea
+Software Licensing <BR>
+
+Software is in the same category as a literary or artistic work... <BR>
+
+Berne Convention for the Protection of Literary and Artistic Works <BR>
+
+
+* Public domain
+* Free software
+- Very Week restrictions 
+- Week restrictions (Apache, Original BSB, MIT, W3C)
+- Strong (GPL, X11, Modified BSD)
 
 
 
- 
+# Copyleft 
+* Copyleft is a general method for making a program free software requiring all modified and extended versions of the program to be free software as well.
+* Copyleft takes away the freedom to turn the software into a propritary (i.e. non-free) software.
+
+If a program 
+
+GNU GPL 
+* General Public License
+* 
+
+FSF (Free Software Foundation)
+OSF (Open Source Foundation)
+
+#End User License Agreement?
+* Not to confuse 
 
 
 
