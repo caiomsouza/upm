@@ -141,6 +141,8 @@ http://delicias.dia.fi.upm.es/~vrodriguez/<BR>
 https://es.linkedin.com/in/victor-rodriguez-doncel-554b5213/en<BR>
 https://twitter.com/vroddon<BR>
 
+Patente publicada por Victor Rodriguez Doncel<BR>
+http://www.oepm.es/pdf/ES/0000/000/02/41/45/ES-2414581_B1.pdf<BR>
 
 #General Idea
 Software Licensing<BR>
