@@ -7,9 +7,7 @@ GOICOLEA RUIGOMEZ, ANA<BR>
 ana.goicolea@upm.es<BR>
 913366192<BR>
 913365974<BR>
-
 https://es.linkedin.com/in/ana-goicolea-ruigómez-83b7742b/en<BR>
-
 
 OTRIUPM<BR>
 
@@ -124,6 +122,7 @@ Art. 13 de la Normativa de PI de la UPM.<BR>
 * El coste para la UPM es aprox. 2000 a 3000 euros. (Ellos hasta el momento tienen descuentos)
 * 30.000 euros - USA and Europe
 
+UPM is the third in Spain with number of patents.<BR>
 
 # What is copyright
 
@@ -144,7 +143,7 @@ https://twitter.com/vroddon<BR>
 
 
 #General Idea
-Software Licensing <BR>
+Software Licensing<BR>
 
 Software is in the same category as a literary or artistic work... <BR>
 
@@ -156,7 +155,6 @@ Berne Convention for the Protection of Literary and Artistic Works <BR>
 - Very Week restrictions 
 - Week restrictions (Apache, Original BSB, MIT, W3C)
 - Strong (GPL, X11, Modified BSD)
-
 
 
 # Copyleft 
@@ -175,11 +173,10 @@ OSF (Open Source Foundation)
 #End User License Agreement?
 * Not to confuse 
 
+#Marca de agua
+Dejar algo en tu software, es un señal invisible que se deja en canciones, imagens, softwares.
 
-
-
-
-
-
+http://www.softonic.com/windows/marca-de-agua<BR>
+http://conunpocodeazucar.com/como-poner-una-marca-de-agua-a-varias-fotos-de-golpe/<BR>
 
 
