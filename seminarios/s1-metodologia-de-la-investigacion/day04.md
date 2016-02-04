@@ -45,13 +45,12 @@ Patents shall be granted for any invention, in any field of techonology
 
 Everything (in the world) made avaible to the public by means of ... <BR>
 
-... before the filing date of the application. <BR>
-
 * written description
 * oral description
 * by use
 * or disclosed in any other way
 
+... before the filing date of the application. <BR>
 
 Keep your invention confidential until you have filed your application!
 
