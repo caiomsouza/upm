@@ -90,8 +90,41 @@ PCT Loop is to "buy" time. It is the way big companies use to patent in a lot of
 * USA, EU, Brazil, etc.
 
 ###Real Patents created in UPM
-* Alise Devices
-http://www.alise-devices.com/<BR>
+* Alise Devices ( http://www.alise-devices.com )
+
+# Artículo 20 de la Ley de Patentes
+# Art. 4 de la Normativa de PI de la UPM
+
+# Trabajos de Fin de Master 
+En el caso de un trabajo de fin de master el autor es el alumno y el titular del trabajo.<BR>
+
+# Derechos económicos de los inventores
+* Los inventores y/o autores percibirán el 50% de los ingresos obtenidos por el contrato de licencia. En el caso de que el resultado en explotación fuera derivado de trabajos docentes, los alumnos participantes ... percibirán, al menos, el 70% de este 50%.
+El porcentaje a percibir por los autores o inventores se repartirá entre ellos según hayan especificiado en documento escrito ....... De mutuo acuerdo entre todos ellos, podrán destinar dichos recursos a actividades de fomento de la investigación en el grupo ...... a los que pertenezcan.
+* El 50% restante se destinará a los usos que decida la UPM.
+
+Art. 13 de la Normativa de PI de la UPM.<BR>
+
+# What must a researcher do if he/she has a patentable invention?
+* Find out if the technology already exists
+* Avoid disclosing information before patent ap[lication
+* Seek for advice to a patent expert (Patent attorney or OTRI in case of university research)
+
+#El coste aproximado de registrar una patente:
+* El coste para la UPM es aprox. 2000 a 3000 euros. (Ellos hasta el momento tienen descuentos)
+* 30.000 euros - USA and Europe
+
+
+
+
+
+ 
+
+
+
+
+
+
 
 
 
