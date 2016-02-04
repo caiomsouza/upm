@@ -179,4 +179,9 @@ Dejar algo en tu software, es un señal invisible que se deja en canciones, imag
 http://www.softonic.com/windows/marca-de-agua<BR>
 http://conunpocodeazucar.com/como-poner-una-marca-de-agua-a-varias-fotos-de-golpe/<BR>
 
+#Apache Rat
+Apache Rat is a release audit tool, focused on licenses.<BR>
+http://creadur.apache.org/rat/<BR>
+
+
 
