@@ -1,4 +1,4 @@
-# UPM - Day 02 - S1 
+# UPM - Day 2 - 02/02/2016 - S1
 
 Author: Arístides Senra Díaz
 aristides.senra@upm.es
