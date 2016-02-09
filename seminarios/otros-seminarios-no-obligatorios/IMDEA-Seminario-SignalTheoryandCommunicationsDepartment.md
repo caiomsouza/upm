@@ -1,7 +1,7 @@
 #Fernando Pérez-González
-Signal Theory and Communications Department
-Universidad de Vigo
-Place: IMDEA / UPM (http://www.imdea.org/)
+Signal Theory and Communications Department<BR>
+Universidad de Vigo<BR>
+Place: IMDEA / UPM (http://www.imdea.org/)<BR>
 
 #Problems:
 
@@ -59,5 +59,5 @@ The detectors will usually give the result was an Yes or No answer, that makes h
 
 More information in a image, more distortion you will have in a image and it will be easier to the detector to find it.
 
-#Tools (Open Source and Free)bec:
+#Tools (Open Source and Free):
 http://www.openstego.com
