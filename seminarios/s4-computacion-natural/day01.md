@@ -20,6 +20,13 @@ Comunicación de las bacterias<BR>
 * Hay una forma universal de comunicar con todas las bacterias.<BR>??
 * Y hay forma de comunicar especifica de un grupo de bacterias, exclusiva de ellas.<BR>
 
+Bonnie Bassler explica como as bactérias se comunicam<BR>
+http://www.ted.com/talks/bonnie_bassler_on_how_bacteria_communicate?language=pt-br<BR>
+
+A intrigante comunicação das bactérias<BR>
+http://www2.uol.com.br/sciam/artigos/a_intrigante_comunicacao_das_bacterias.html<BR>
+
+
 ###What is CRISPR
 
 CRISPR is an acronym for Clustered Regularly Interspaced Short Palindromic Repeat. This name refers to the unique organization of short, partially palindromic repeated DNA sequences found in the genomes of bacteria and other microorganisms. While seemingly innocuous, CRISPR sequences are a crucial component of the immune systems [3] of these simple life forms. The immune system is responsible for protecting an organism’s health and well-being. Just like us, bacterial cells can be invaded by viruses, which are small, infectious agents. If a viral infection threatens a bacterial cell, the CRISPR immune system can thwart the attack by destroying the genome of the invading virus [4]. The genome of the virus includes genetic material that is necessary for the virus to continue replicating. Thus, by destroying the viral genome, the CRISPR immune system protects bacteria from ongoing viral infection.<BR> 
