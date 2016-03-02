@@ -2,11 +2,12 @@
 Fecha: 02/03/2016
 Prof. Pedro 
 
-EDAs
+Estimation of Distribution Algorithm (EDA),
 *  
 * 
 
-PBIL (Population Based Incremental Learning). Baluja (1994)<BR>
-
-
+Algorithm
+* PBIL (Population Based Incremental Learning). Baluja (1994)
+* compact Genetic Algorithm (cGA). Harik et al. (1998) 
+http://www.cleveralgorithms.com/nature-inspired/probabilistic/compact_genetic_algorithm.html<BR>
 
