@@ -6,3 +6,7 @@ EDAs
 *  
 * 
 
+PBIL (Population Based Incremental Learning). Baluja (1994)<BR>
+
+
+
