@@ -76,13 +76,11 @@ Ebay will have to hire all the translator in US
  
 Put a button is this information usuful?
 
-
+Class Group Exercise:
 1) What happens if they do not communicate very, very well?
 * They will not know very well the product;
 * They will not understand the client;
 * They will not sale;
-
-
 
 2) Who do they talk to? [Make a list.] 
 3) What do they talk about?
@@ -97,33 +95,12 @@ Sales speak with all departments by specially with:
 * Strategic & Planning - Future of the company and product;
 * HR - To hire more employees.
 
-
-
 4) Which file types and tools do they use?
 * CRM
 * ERP
 * BI Tools;
 * Phone;
-* E-mails;
+* E-mails
+* Meetings;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
+More outbound and inbound communications;
