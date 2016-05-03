@@ -77,6 +77,40 @@ Ebay will have to hire all the translator in US
 Put a button is this information usuful?
 
 
+1) What happens if they do not communicate very, very well?
+* They will not know very well the product;
+* They will not understand the client;
+* They will not sale;
+
+
+
+2) Who do they talk to? [Make a list.] 
+3) What do they talk about?
+
+Sales speak with all departments by specially with:
+* Marketing - How have been promoted the product;
+* Finance - Product Cost, Price, 
+* Logistics - Shipment Conditions;
+* Customer Support - Questions, Problems, Upselling and Cross Selling;
+* Localization - Ways to adapt in a country;
+* Legal - Contracts, Special Conditions;
+* Strategic & Planning - Future of the company and product;
+* HR - To hire more employees.
+
+
+
+4) Which file types and tools do they use?
+* CRM
+* ERP
+* BI Tools;
+* Phone;
+* E-mails;
+
+
+
+
+
+
 
 
 
