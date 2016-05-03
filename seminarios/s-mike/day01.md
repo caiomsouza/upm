@@ -23,5 +23,9 @@ CEO main job is outbound communication.<BR>
 * Internal Communication:
 
 
+The actual process in all companies is to create content in one language and send to translation in all others languages.<BR>
+
+Inbound Communication - Consume Content<BR>
+
 
 
