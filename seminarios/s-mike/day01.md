@@ -10,5 +10,18 @@ http://www.promt.com/<BR>
 
 http://www.statmt.org/moses/<BR>
 
+The clients will only ask you:<BR>
+How bad is it?<BR>
+
+They are not asking you how much is it, just how bad is your Machine Translation System.<BR>
+
+CEO main job is outbound communication.<BR>
+
+3 groups of communication scenarios<BR>
+* Inbound Communication;
+* Outbound communication:
+* Internal Communication:
+
+
 
 
