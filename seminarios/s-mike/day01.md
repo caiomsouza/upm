@@ -104,3 +104,26 @@ Sales speak with all departments by specially with:
 * Meetings;
 
 More outbound and inbound communications;
+
+Tools:
+* Slack;
+* JIRA;
+* Github;
+
+
+
+Amount of Informations
+Audiencia
+Language and know the country
+
+
+
+
+
+
+
+
+
+
+
+
