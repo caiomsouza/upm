@@ -26,4 +26,40 @@ Extensions:
 Parameter optimization is a key component of any successful application of collective intelligence techniques.  Investigate and apply some intelligent technique to optimize the parameters used by the algorithm to solve one specific problem (for example to find the optimal solution to some particular instance) and report upon the results.
 Implement a number of different algorithms (for example some subset of PSO, ACO, GA, Dynamic Programming ...) and report on the performance comparisons of the different techniques.
 
+# Java 
+
+An implementation of Ant Colony System in Java<BR>
+https://github.com/ugochirico/Java-Ant-Colony-System-Framework<BR>
+
+# Dataset
+http://www.math.uwaterloo.ca/tsp/world/ca4663.tsp<BR>
+http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/<BR>
+http://www.math.uwaterloo.ca/tsp/world/it16862.tsp
+http://www.math.uwaterloo.ca/tsp/world/countries.html#IT<BR>
+http://www.math.uwaterloo.ca/tsp/data/<BR>
+http://www.iwr.uni-heidelberg.de/groups/comopt/software/TSPLIB95/tsp95.pdf<BR>
+
+
+
+# Links:
+
+https://en.wikipedia.org/wiki/Travelling_salesman_problem<BR>
+https://en.wikipedia.org/wiki/Particle_swarm_optimization<BR>
+http://www.swarmintelligence.org/tutorials.php<BR>
+https://en.wikipedia.org/wiki/Genetic_algorithm<BR>
+https://en.wikipedia.org/wiki/Evolutionary_algorithm<BR>
+https://en.wikipedia.org/wiki/Metaheuristic<BR>
+https://en.wikipedia.org/wiki/Markov_chain<BR>
+https://en.wikipedia.org/wiki/Ant_colony_optimization_algorithms<BR>
+http://www.aco-metaheuristic.org<BR>
+https://mitpress.mit.edu/books/ant-colony-optimization<BR>
+http://iridia.ulb.ac.be/ants2014/index.php<BR>
+
+Papers:
+http://0-www.sciencedirect.com.cisne.sim.ucm.es/science/article/pii/S0377221708002373<BR>
+
+
+
+
+
 
