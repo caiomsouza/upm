@@ -1,0 +1,173 @@
+package org.upm;
+
+import java.awt.Color;
+import java.awt.geom.AffineTransform;
+import java.awt.image.AffineTransformOp;
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+import javax.imageio.ImageIO;
+
+import sim.engine.SimState;
+import sim.field.continuous.Continuous2D;
+import sim.util.Bag;
+import sim.util.Double2D;
+
+public class TRS extends SimState{
+	public Continuous2D yard = new Continuous2D(1.0,100,100);
+	static Bag robots;
+	final static int DISTANCE_MAX = Integer.MAX_VALUE;
+	final static int neighborDist = 15;
+	int numRobots = 10;
+	double forceToSchoolMultiplier = 0.01;
+	double randomMultiplier = 0.1;
+	int seed = 4;
+	int column = 5; // this is used to initialize the robots in 5 columns
+	static double epsilon = 0.00001;
+
+
+
+
+	static int BLACK = 0;
+	static int WHITE = 1;
+	static int RED = 2;
+
+	public TRS(long seed) {
+		super(seed);
+		// TODO Auto-generated constructor stub
+	}
+
+	public Robot seedRobot(int id, int i, int j, boolean localized, boolean seed, boolean gradientSeed, int [][]image){
+		Robot robot = new Robot(id, i, j, seed, gradientSeed, image);
+		yard.setObjectLocation(robot, new Double2D(yard.getWidth() * 0.5 + i, yard.getWidth() * 0.5 + j));
+		robot.localized = localized;
+		return robot;		
+	}
+
+	public void start()
+	{
+		super.start();	
+		yard.clear();
+		int[][] image = readShape("images/shape.bmp", 2, 2);
+
+		seedRobot(0, 0, 0, true, true, true, image);
+		seedRobot(1, 1, 0, true, true, false, image);
+		seedRobot(2, 0, 1, true, true, false, image);
+		seedRobot(3, 1, 1, true, true, false, image);
+
+		for(int i = 0, r = 2; i < numRobots - 4; r++)
+		{ 
+			if(numRobots - (i + 4) >= 5){//here we fill columns with the not localized robots
+				for (int j = 0; j < 5; j++, i++){
+					seedRobot(i+4, j, r, false, false, false, image);
+				}
+			}
+			else {// here we put the last robots in the last row.
+				for (int j = 0; j < numRobots - (i + 4); j++, i++){
+					seedRobot(i+4, j, r, false, false, false, image);
+				}
+			}
+
+		}
+
+		Bag robots = yard.getAllObjects();
+		Robot robot;
+		int len = robots.size();
+		for (int i = 0; i < len; i++){
+			robot = (Robot) robots.get(i);
+			robot.gradientFormation (yard);
+			System.out.println(robot.gradientValue);
+			schedule.scheduleRepeating(robot);
+		}
+
+	}
+
+	public static void main(String[] args)
+	{
+		doLoop(TRS.class, args);
+		System.exit(0);
+		//		SimState state = new TRS(System.currentTimeMillis());
+		//		state.start();
+		//		do
+		//			if (!state.schedule.step(state)) break;
+		//		while(state.schedule.getSteps() < 5);
+		//		state.finish();
+		//		System.exit(0);
+	}
+
+	public int[][] readShape(String shapeFile, double sx, double sy)
+	{
+		BufferedImage image = null;
+		try
+		{
+			image = ImageIO.read(new File(shapeFile));
+			image = scale(image,sx,sy);
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		int[][] shape = new int[image.getHeight()][image.getWidth()];
+		for(int i = 0; i < image.getHeight(); i++)
+		{
+			for(int j = 0; j < image.getWidth(); j++)
+			{
+				shape[i][j] = WHITE;
+			}
+		}
+
+		//converting from bufferedimage to int[][]
+		for(int i = 0; i < image.getHeight(); i++)
+		{
+			for(int j = 0; j < image.getWidth(); j++)
+			{
+				Color c = convertToColor(image.getRGB(i, j));
+				if(c.equals(Color.black))
+				{
+					shape[j][i] = BLACK;
+				}
+				else if(c.getRed()>c.getGreen())
+				{
+					shape[j][i] = RED;
+				}
+			}
+		}
+		return shape;
+	}
+
+	//scales image by a certain amount
+	//http://stackoverflow.com/questions/4216123/how-to-scale-a-bufferedimage
+	public BufferedImage scale(BufferedImage before, double sx, double sy)
+	{
+		int w = before.getWidth();
+		int h = before.getHeight();
+		BufferedImage after = new BufferedImage((int)(w*sx), (int)(h*sy), BufferedImage.TYPE_INT_ARGB);
+		for(int i = 0; i < w; i++)
+		{
+			for(int j = 0; j < h; j++)
+			{
+				after.setRGB(i, j, convertToRGB(Color.white));
+			}
+		}
+		AffineTransform at = new AffineTransform();
+		at.scale(sx, sy);
+		AffineTransformOp scaleOp = 
+				new AffineTransformOp(at, AffineTransformOp.TYPE_BILINEAR);
+		after = scaleOp.filter(before, after);
+		return after;
+	}
+
+	public int convertToRGB(Color c)
+	{
+		return ((c.getRed()&0x0ff)<<16)|((c.getGreen()&0x0ff)<<8)|(c.getBlue()&0x0ff);
+	}
+
+	public Color convertToColor(int c)
+	{
+		return new Color(c);
+	}
+
+
+
+
+}
