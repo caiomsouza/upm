@@ -5,7 +5,13 @@
     for more information
   Derived work:
     Nik Swoboda, Universidad Politecnica de Madrid
+    
+  Adapted Work to solve the Madrid Metro Problem (Finding the Shortest Path Using Ant Colony Optimization):
+    Caio Fernandes Moreno, Universidad Politecnica de Madrid
+    
 */
+
+
 
 package org.upm;
 
@@ -273,32 +279,35 @@ public class ACOSim extends SimState
     // The "Extended Double Bridge" Network proposed by Marco Dorigo and
     // Thomas Str:utzle in Ant Colony Optimization (MIT Press, 2004)
     GraphNode nodes[] = new GraphNode[19];
-    nodes[0] = makeNode("0",5,1);
-    nodes[1] = makeNode("1",4,2);
-    nodes[2] = makeNode("2",6,2);
-    nodes[3] = makeNode("3",3,3);
-    nodes[4] = makeNode("4",7,3);
-    nodes[5] = makeNode("5",2,4);
-    nodes[6] = makeNode("6",8,4);
-    nodes[7] = makeNode("7",1,5);
-    nodes[8] = makeNode("8",3,5);
-    nodes[9] = makeNode("9",5,4);
-    nodes[10] = makeNode("10",7,5);
-    nodes[11] = makeNode("11",9,5);
-    nodes[12] = makeNode("12",2,6);
-    nodes[13] = makeNode("13",4,6);
-    nodes[14] = makeNode("14",6,6);
-    nodes[15] = makeNode("15",8,6);
-    nodes[16] = makeNode("16",3,7);
-    nodes[17] = makeNode("17",7,7);
-    nodes[18] = makeNode("18",5,8);
+    
+
+/*
+    Adapted Work to solve the Madrid Metro Problem (Finding the Shortest Path Using Ant Colony Optimization):
+      Caio Fernandes Moreno, Universidad Politecnica de Madrid
+*/    
+
+    
+    nodes[0] = makeNode("0 - Plaza de Castilla",5,1);
+    nodes[1] = makeNode("1 - Cuatro Caminos",4,2);
+    nodes[2] = makeNode("2 - Av. de América",6,2);
+    nodes[3] = makeNode("3 - Ciudad Universitaria",3,3);
+    nodes[4] = makeNode("4 - Núñez de Balboa",7,3);
+    nodes[5] = makeNode("5 - Sol",5,5);
+    nodes[6] = makeNode("6 - Sainz de Baranda",7,6);
+    nodes[7] = makeNode("7 - Valdebernardo",8,7);
+    nodes[8] = makeNode("8 - Príncipe de Vergara",6,4);
+    nodes[9] = makeNode("9 - Gran Via",5,4);
+    nodes[10] = makeNode("10 - Legazpi",5,8);
+    nodes[11] = makeNode("11 - Oporto",4,7);
+    nodes[12] = makeNode("12 - Pacífico",6,7);
+    
     
     // Donde se define de donde a donde.
 //    setStart(nodes[2]);
 //    setEnd(nodes[10]);
 
-    setStart(nodes[12]);
-    setEnd(nodes[14]);
+    setStart(nodes[3]);
+    setEnd(nodes[7]);
 
     
     // Donde se define de donde a donde.
@@ -307,31 +316,24 @@ public class ACOSim extends SimState
 
     
     makeEdge(nodes[0],nodes[1],"0-1");
-    makeEdge(nodes[0],nodes[2],"0-2");
+    makeEdge(nodes[1],nodes[2],"1-2");
+    makeEdge(nodes[2],nodes[4],"1-4");
+    makeEdge(nodes[6],nodes[8],"6-8");
     makeEdge(nodes[1],nodes[3],"1-3");
-    makeEdge(nodes[2],nodes[4],"2-4");
-    makeEdge(nodes[3],nodes[5],"3-5");
-    makeEdge(nodes[4],nodes[6],"4-6");
-    makeEdge(nodes[5],nodes[7],"5-7");
-    makeEdge(nodes[9],nodes[8],"9-8");
-    makeEdge(nodes[9],nodes[10],"9-10");
-    makeEdge(nodes[6],nodes[11],"6-11");
-    makeEdge(nodes[7],nodes[12],"7-12");
-    makeEdge(nodes[8],nodes[12],"8-12");
-    makeEdge(nodes[8],nodes[13],"8-13");
-    makeEdge(nodes[8],nodes[10],"8-10");
-    makeEdge(nodes[10],nodes[14],"10-14");
-    makeEdge(nodes[10],nodes[15],"10-15");
-    makeEdge(nodes[11],nodes[15],"11-15");
-    makeEdge(nodes[12],nodes[16],"12-16");
-    makeEdge(nodes[13],nodes[16],"13-16");
-    makeEdge(nodes[13],nodes[14],"13-14");
-    makeEdge(nodes[14],nodes[17],"14-17");
-    makeEdge(nodes[15],nodes[17],"15-17");
-    makeEdge(nodes[16],nodes[18],"16-18");
-    makeEdge(nodes[16],nodes[17],"16-17");
-    makeEdge(nodes[16],nodes[18],"16-18");
-    makeEdge(nodes[17],nodes[18],"17-18");
+    makeEdge(nodes[9],nodes[4],"9-4");
+    makeEdge(nodes[4],nodes[8],"4-8");
+    makeEdge(nodes[9],nodes[5],"9-5");
+    makeEdge(nodes[7],nodes[6],"7-6");
+    makeEdge(nodes[10],nodes[5],"10-5");
+    makeEdge(nodes[11],nodes[9],"11-9");
+    makeEdge(nodes[11],nodes[10],"11-10");
+    makeEdge(nodes[10],nodes[12],"10-12");
+    // connection between Pacifico with Sainz de Baranda
+    makeEdge(nodes[12],nodes[6],"12-6");
+    makeEdge(nodes[11],nodes[3],"11-3");
+    makeEdge(nodes[1],nodes[9],"1-9");
+    makeEdge(nodes[5],nodes[8],"5-8");
+    makeEdge(nodes[2],nodes[0],"2-0");
 
     
     
